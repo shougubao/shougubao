@@ -1,16 +1,49 @@
-## Hi there 👋
+一款非洲鼓（djembe / hand drum）专用的打谱软件。输入节奏就出谱，左右手自动标，谱子能打印、能发链接给学员跟练。
 
-<!--
-**shougubao/shougubao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**官网：https://shougubao.com**　｜　**在线试用（不用装）：https://shougubao.com/try/**
 
-Here are some ideas to get you started:
+## 它解决什么问题
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+通用打谱软件（MuseScore 等）面向多声部总谱，做非洲鼓谱要自己配打击乐符号、自己设记谱样式。手鼓宝只做非洲鼓这一件事。
+
+## 四个核心功能
+
+| 功能 | 说明 |
+|---|---|
+| **智能节奏型库** | 打过的节奏存进库里，下次打到同样的节奏型自动匹配，左右手怎么打一起标好 |
+| **歌词在线搜索** | 打上歌名在线检索，挑一条带时间轴的，一键落到鼓谱上，副歌重复段按第 1 / 2 遍分开标色 |
+| **个性定制** | 字号、间距、颜色、拍色块全按自己习惯调 |
+| **动态鼓谱** | 一键出会跟着播放走的动态鼓谱视频，直接发抖音；谱面播放时当前拍整块高亮 |
+
+## 记谱方式
+
+一小节四拍写四个字母，一格一个。三个基本音：
+
+- `B` 低音 —— 手掌打鼓心
+- `T` 中音 —— 手指根打鼓边
+- `S` 高音 —— 手指弹鼓边
+
+另有闷音 `M`、切音 `X`、休止 `0`。手顺用 `r`（右）`l`（左）`a`（双手）写在音色前面，例如 `rB lS rB lS`。
+
+> 说明：`B` 在鼓心；`T` 和 `S` 落点几乎一样，都在鼓边那一圈，区别在手型和发力方式。流行打法基本不用 `T`。
+
+## 平台与下载
+
+- Windows 10 / 11 —— 免安装，解压即用
+- macOS 11+ —— 解压即用
+- 网页版 —— 浏览器打开就能试，不用装
+- 微软应用商店搜「手鼓宝」（装了自动更新）
+
+下载页：https://shougubao.com/download.html
+微软应用商店：https://apps.microsoft.com/detail/9ns56vdl4r07
+在线试用：https://shougubao.com/try/
+
+免费版包含记谱、播放、导出打印，不用注册。
+
+## 更新日志
+
+https://shougubao.com/changelog.html
+
+## 说明
+
+本仓库用于公开产品信息与问题反馈，不含软件源代码。使用问题请提 issue。
